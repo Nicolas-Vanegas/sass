@@ -1,0 +1,19 @@
+/* Saco .estadistica--perfil de perfil porque es un elemento que lo quiero reutilizar */
+.estadistica--perfil {
+  display: flex;
+  height: 90px;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  @include caja;
+  h3 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+    @include titulos($Fuente2);
+  }
+  span {
+    font-size: 12px;
+    @include titulos($Fuente2);
+  }
+}
